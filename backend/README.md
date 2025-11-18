@@ -14,6 +14,7 @@ Repository/Service:
 
 Settings & CORS:
 - Settings read from environment variables. Use FRONTEND_ORIGIN (or REACT_APP_FRONTEND_URL) to configure CORS.
+- In production/preview over HTTPS, ensure FRONTEND_ORIGIN matches your frontend (e.g., https://vscode-internal-15894-beta.beta01.cloud.kavia.ai:3000).
 - API prefix can be configured via API_PREFIX environment variable (default `/api/v1`).
 
 Run:

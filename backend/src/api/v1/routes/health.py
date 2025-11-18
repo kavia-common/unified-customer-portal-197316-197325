@@ -10,7 +10,10 @@ def health_check():
     """
     Health check endpoint for API v1.
 
+    Path:
+        GET /api/v1/health
+
     Returns:
-        JSON object with ok status.
+        JSON object: {"status": "ok"}
     """
     return JSONResponse({"status": "ok"})
